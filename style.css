@@ -9,10 +9,9 @@
   grid-template-areas: 'header' 'left' 'main' 'right' 'footer';
 
 }
-/* Add media rules for container class below */
+/* Media rules for container class */
 @media (min-width: 440px) {
   .container {
-  /* Add rules here */
   grid-template-columns: 150px 1fr 150px;
   grid-template-rows: auto 1fr auto;
   grid-template-areas:  'header header header' 
